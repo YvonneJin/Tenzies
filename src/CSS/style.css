@@ -147,7 +147,7 @@ main {
 }
 
 /* Adjustment screen adaption */
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:1024px) and (max-height: 801px) {
     main {
         top: 58%;
         left: 45%;
@@ -164,23 +164,45 @@ main {
     }
 }
 
-@media only screen and (max-width:820px) {
+@media only screen and (max-width:1024px) and (max-height: 1366px) {
     main {
-        top: 40%;
-        left: 41%;
+        top: 35%;
+        left: 35%;
+        height: 900px;
+        width: 900px;
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:912px) and (max-height: 1368px) {
     main {
         top: 40%;
-        left: 42%;
-        width: 580px;
+        left: 40%;
+        height: 800px;
+        width: 800px;
     }
 }
 
-@media only screen and (max-width:540px) {
+@media only screen and (max-width:820px) and (max-height:1180px) {
     main {
+        top: 40%;
+        left: 44%;
+        height: 700px;
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width:768px) and (max-height:1024px){
+    main {
+        top: 40%;
+        left: 45%;
+        width: 680px;
+        height: 680px;
+    }
+}
+
+@media only screen and (max-width:540px) and (max-height:720px){
+    main {
+        top: 55%;
         left: 59%;
         width: 500px;
     }
@@ -190,7 +212,7 @@ main {
     }
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width:414px) and (max-height:915px) {
     main {
         width: 400px;
         left: 74%;
@@ -206,7 +228,7 @@ main {
     }
 }
 
-@media only screen and (max-width:393px) {
+@media only screen and (max-width:393px) and (max-height:851px) {
     main {
         width: 350px;
         left: 82%;
@@ -231,10 +253,37 @@ main {
     }
 }
 
-@media only screen and (max-width:376px) {
+@media only screen and (max-width:375px) {
     main {
+        top: 55%;
         width: 300px;
         left: 90%;
+    }
+
+    .dice-container {
+        gap: 10px;
+    }
+    
+    .dice {
+        width: 47px;
+        height: 47px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .rolling-times, .time-cost, .best-time {
+        margin: 16px;
+    }
+}
+
+@media only screen and (max-width:360px) and (max-height:740px) {
+    main {
+        width: 300px;
+        left: 92%;
+        top: 55%;
     }
 
     .dice-container {
@@ -262,8 +311,9 @@ main {
     }
 }
 
-@media only screen and (max-width:280px) {
+@media only screen and (max-width:280px) and (max-height:653px) {
     main {
+        top: 55%;
         left: 109%;
         width: 270px;
     }
