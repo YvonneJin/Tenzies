@@ -145,3 +145,65 @@ main {
 .roll-dice:active {
     box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
+
+/*  */
+@media only screen and (max-width:1200px) {
+
+}
+
+@media only screen and (max-width:1024px) {
+
+}
+
+@media only screen and (max-width:960px) {
+
+}
+
+@media only screen and (max-width:769px) {
+
+}
+
+@media only screen and (max-width:560px) {
+
+}
+
+@media only screen and (max-width:541px) {
+
+}
+
+@media only screen and (max-width:500px) {
+
+}
+
+@media only screen and (max-width:401px) {
+
+}
+
+@media only screen and (max-width:376px) {
+    main {
+        width: 300px;
+        left: 90%;
+    }
+
+    .dice-container {
+        gap: 10px;
+    }
+    
+    .dice {
+        width: 47px;
+        height: 47px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media only screen and (max-width:361px) {
+
+}
+
+@media only screen and (max-width:321px) {
+
+}
