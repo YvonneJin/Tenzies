@@ -198,6 +198,10 @@ main {
         width: 10px;
         height: 10px;
     }
+
+    .rolling-times, .time-cost, .best-time {
+        margin: 15px;
+    }
 }
 
 @media only screen and (max-width:361px) {
